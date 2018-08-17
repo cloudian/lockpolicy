@@ -26,6 +26,7 @@ Group: Cloudians
 Source0: %{name}-%{version}.tar.gz
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Prefix:/usr
+Requires: jq
 %description
 
 %prep
